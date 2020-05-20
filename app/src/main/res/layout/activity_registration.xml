@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <Toolbar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SIGN IN"
+        android:id="@+id/toolbar_reg"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="275dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <ProgressBar
+            android:id="@+id/progressBar_reg"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    </Toolbar>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/etEmailRegistration"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="350dp"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/etPasswordRegistration"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/etEmailRegistration"
+        android:layout_centerVertical="true"
+        android:hint="Lozinka (barem 6 znakova)"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/etPasswordRegistration2"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/etPasswordRegistration"
+        android:layout_centerVertical="true"
+        android:hint="Potvrda loznike"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/fakultetTxtR"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/etPasswordRegistration2"
+        android:layout_alignBottom="@+id/userTextR"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="325dp"
+        android:layout_marginBottom="63dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="Fakultet: "/>
+
+    <Spinner
+        android:id="@+id/fakultetSpinnerR"
+        android:layout_width="232dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/etPasswordRegistration2"
+        android:layout_alignBottom="@+id/userTextR"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginBottom="62dp"
+        android:layout_toRightOf="@id/fakultetTxtR" />
+
+    <Button
+        android:id="@+id/btnSignUpRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fakultetSpinnerR"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#008AFF"
+        android:text="Registracija"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+
+</RelativeLayout>

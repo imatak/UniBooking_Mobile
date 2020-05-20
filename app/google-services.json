@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "358314333586",
+    "firebase_url": "https://unibooking-7e24d.firebaseio.com",
+    "project_id": "unibooking-7e24d",
+    "storage_bucket": "unibooking-7e24d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358314333586:android:00f3c75a0b512b62ca1d4b",
+        "android_client_info": {
+          "package_name": "unipu.hr.unibooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358314333586-tka8m13id55347hr1drsehd2lba1km2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "unipu.hr.unibooking",
+            "certificate_hash": "90408e58d399bf4fbe563eb270a297aec8df1bb0"
+          }
+        },
+        {
+          "client_id": "358314333586-7hs0406a60l1fltaa6vrdqk021ucpcu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlWSjsWS6uRC2T3zQUHYDss7n4AaQR_6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358314333586-7hs0406a60l1fltaa6vrdqk021ucpcu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

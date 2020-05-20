@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/textViewDatum"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="15sp"
+        android:layout_weight="25"/>
+
+    <TextView
+            android:gravity="center"
+            android:id="@+id/textViewVrijeme"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="15sp"
+            android:layout_weight="25" />
+
+    <TextView
+            android:gravity="center"
+            android:id="@+id/textViewRazlog"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="15sp"
+            android:layout_weight="25"/>
+
+    <ImageView
+            android:gravity="center"
+            android:id="@+id/textViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="15sp"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:layout_weight="25"/>
+
+</LinearLayout>
